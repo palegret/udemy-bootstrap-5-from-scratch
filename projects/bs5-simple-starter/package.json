@@ -1,0 +1,19 @@
+{
+  "name": "bs5-simple-starter",
+  "version": "1.0.0",
+  "description": "Starter template for Bootstrap websites",
+  "license": "MIT",
+  "author": "Phil Alegret",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass:clean": "rm -rf css",
+    "sass:build": "npm run sass:clean && sass scss:css --load-path=node_modules --no-source-map --quiet-deps --silence-deprecation=import",
+    "sass:watch": "npm run sass:clean && sass scss:css --load-path=node_modules --no-source-map --quiet-deps --silence-deprecation=import --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.97.2"
+  }
+}
