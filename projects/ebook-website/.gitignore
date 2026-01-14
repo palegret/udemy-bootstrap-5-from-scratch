@@ -139,3 +139,6 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 .vscode/
+
+# CSS build output
+css/
